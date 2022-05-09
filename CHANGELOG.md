@@ -1,5 +1,73 @@
 # Change Log
 
+## <a name="v0-28-0-alpha.16" href="#v0-28-0-alpha-16">v0.28.0-alpha.16</a> [(2022-05-09)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.16)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.15...v0.28.0-alpha.16)
+
+#### Summary of changes
+- Allow disabling specific filters during checkout
+
+#### Merged PRs into NodeGit
+- [Allow disabling specific filters during checkout](https://github.com/nodegit/nodegit/pull/1911)
+
+## <a name="v0-28-0-alpha.15" href="#v0-28-0-alpha-15">v0.28.0-alpha.15</a> [(2022-05-05)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.15)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.14...v0.28.0-alpha.15)
+
+#### Summary of changes
+- Expose `GIT_OPT_GET_OWNER_VALIDATION` and `GIT_OPT_SET_OWNER_VALIDATION`
+
+#### Merged PRs into NodeGit
+- [Expose get/set owner validation opts](https://github.com/nodegit/nodegit/pull/1910)
+
+## <a name="v0-28-0-alpha.14" href="#v0-28-0-alpha-14">v0.28.0-alpha.14</a> [(2022-05-02)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.14)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.13...v0.28.0-alpha.14)
+
+#### Summary of changes
+- Allow statically linking OpenSSL on Linux
+- Update libgit2 to 1.3.1
+
+#### Merged PRs into NodeGit
+- [Statically compile OpenSSL on linux for electron](https://github.com/nodegit/nodegit/pull/1905)
+- [Upgrade libgit2 to 1.3.1](https://github.com/nodegit/nodegit/pull/1894)
+
+## <a name="v0-28-0-alpha.13" href="#v0-28-0-alpha-13">v0.28.0-alpha.13</a> [(2022-03-22)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.13)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.12...v0.28.0-alpha.13)
+
+#### Summary of changes
+- Partially fix issue with building for Electron
+
+#### Merged PRs into NodeGit
+- [Fix electron build](https://github.com/nodegit/nodegit/pull/1901)
+
+## <a name="v0-28-0-alpha.12" href="#v0-28-0-alpha-12">v0.28.0-alpha.12</a> [(2022-03-18)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.12)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.11...v0.28.0-alpha.12)
+
+#### Summary of changes
+- Updated CI because of GitHub deprecations
+- Added workaround for LFS performance regression
+
+#### Merged PRs into NodeGit
+- [Update windows 2016 CI to 2019](https://github.com/nodegit/nodegit/pull/1897)
+- [Skip "can clone with git" test, unauthenticated git protocol is no longer supported in Github](https://github.com/nodegit/nodegit/pull/1899)
+- [UNSAFE Temporary workaround for LFS checkout performance regression](https://github.com/nodegit/nodegit/pull/1883)
+- [Update Github Actions for node 16](https://github.com/nodegit/nodegit/pull/1896)
+
+## <a name="v0-28-0-alpha.11" href="#v0-28-0-alpha-11">v0.28.0-alpha.11</a> [(2022-02-08)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.11)
+
+[Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.10...v0.28.0-alpha.11)
+
+#### Summary of changes
+- Updated libssh2 to add RSA SHA2 256/512 SSH key support
+
+#### Merged PRs into NodeGit
+- [RSA SHA2 256/512 key upgrade support RFC 8332 #536 (#626)](https://github.com/nodegit/nodegit/pull/1888)
+- [Fix typos in examples](https://github.com/nodegit/nodegit/pull/1884)
+- [Don't build shared OpenSSL libs](https://github.com/nodegit/nodegit/pull/1877)
+
 ## <a name="v0-28-0-alpha.10" href="#v0-28-0-alpha-10">v0.28.0-alpha.10</a> [(2021-11-11)](https://github.com/nodegit/nodegit/releases/tag/v0.28.0-alpha.10)
 
 [Full Changelog](https://github.com/nodegit/nodegit/compare/v0.28.0-alpha.9...v0.28.0-alpha.10)
